@@ -1,50 +1,73 @@
-# Welcome to your Expo app 👋
+# RN Marquee
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A beautiful and performant React Native marquee animation component built with Expo.
 
-## Get started
+## Demo
 
-1. Install dependencies
+https://user-images.githubusercontent.com/grkndev/rn-marquee/assets/images/Screen_Recording.mp4
 
-   ```bash
-   npm install
-   ```
+![Demo](./assets/images/Screen_Recording.mp4)
 
-2. Start the app
+## Features
 
-   ```bash
-    npx expo start
-   ```
+- Smooth marquee animations
+- Customizable speed and spacing
+- Support for images and other content
+- Built with React Native Reanimated
+- Expo compatible
+- Cross-platform support (iOS, Android, Web)
 
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
+## Installation
 
 ```bash
-npm run reset-project
+npm install @animatereactnative/marquee expo-linear-gradient react-native-reanimated
+# or
+yarn add @animatereactnative/marquee expo-linear-gradient react-native-reanimated
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## Usage
 
-## Learn more
+```tsx
+import { Marquee } from "@animatereactnative/marquee";
 
-To learn more about developing your project with Expo, look at the following resources:
+// Basic usage
+<Marquee
+  speed={0.5}
+  style={{
+    gap: spacing,
+  }}
+>
+  {/* Your content here */}
+</Marquee>
+```
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## Dependencies
 
-## Join the community
+- "@animatereactnative/marquee": "^0.5.2"
+- "expo-linear-gradient": "~14.0.3"
+- "react-native-reanimated"
+- "expo": "~52.0.33"
 
-Join our community of developers creating universal apps.
+## Development
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+1. Clone the repository
+2. Install dependencies:
+```bash
+npm install
+# or
+yarn
+```
+3. Start the development server:
+```bash
+npm start
+# or
+yarn start
+```
+
+## License
+
+MIT
+
+## Author
+
+Created by grkndev
