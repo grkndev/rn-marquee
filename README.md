@@ -3,13 +3,9 @@
 A beautiful and performant React Native marquee animation component built with Expo.
 
 ## Demo
-
-https://user-images.githubusercontent.com/grkndev/rn-marquee/assets/images/Screen_Recording.mp4
-
-![Demo](./assets/images/Screen_Recording.mp4)
+https://github.com/user-attachments/assets/58d56fa2-6936-4f4e-8250-66056f993a95
 
 ## Features
-
 - Smooth marquee animations
 - Customizable speed and spacing
 - Support for images and other content
